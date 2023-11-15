@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Santa Panda',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Khó mới cần học, dễ thì cần gì hỏi',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,11 +76,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Khoá học',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Nhật ký', position: 'left'},
+          {to: '/blo', label: 'Liên hệ', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/HuanHuynh24/hocmoithu',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,16 +91,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tài liệu',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Khoá học',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Cộng đồng',
             items: [
               {
                 label: 'Stack Overflow',
@@ -116,15 +117,15 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Nhiều hơn',
             items: [
               {
-                label: 'Blog',
+                label: 'Cá nhân',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/HuanHuynh24/hocmoithu',
               },
             ],
           },
