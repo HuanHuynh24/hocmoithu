@@ -1,43 +1,51 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "React",
+    Svg: require("@site/static/img/undraw_react_re_g3ui.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        React là thư viện <code> JavaScript </code> phổ biến nhất để xây dựng
+        giao diện người dùng (UI). Nó cho tốc độ phản hồi tuyệt vời khi user
+        nhập liệu bằng cách sử dụng phương pháp mới để render trang web.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "JavaScript frameworks",
+    Svg: require("@site/static/img/undraw_javascript_frameworks_-8-qpc.svg")
+      .default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Thực chất đó là các đoạn code được viết sẵn bằng ngôn ngữ lập trình
+        JavaScript, tạo nên một bộ khung có sẵn. Nó chứa các trình biên dịch,
+        diễn dịch, các thư viện,… Những dòng code được viết sẵn trong framework
+        có thể được sử dụng cho các tính năng hoặc các tác vụ lập trình thông
+        thường.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "HTML/CSS/JAVASCRIPT",
+    Svg: require("@site/static/img/undraw_static_assets_rpm6.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        HTML (Hypertext Markup Language) là ngôn ngữ đánh dấu để tạo cấu trúc
+        trang web. CSS (Cascading Style Sheets) định dạng và trang trí trang.
+        JavaScript là ngôn ngữ tương tác làm cho trang web trở nên động đáo và
+        linh hoạt. Cùng nhau, chúng tạo nên trải nghiệm web đa dạng và hấp dẫn.
       </>
     ),
   },
+  
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
