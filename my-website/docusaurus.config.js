@@ -62,6 +62,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
@@ -79,7 +80,7 @@ const config = {
             label: 'Khoá học',
           },
           {to: '/blog', label: 'Nhật ký', position: 'left'},
-          {to: '/blo', label: 'Liên hệ', position: 'left'},
+          {to: '/Contact', label: 'Liên hệ', position: 'left'},
           {
             href: 'https://github.com/HuanHuynh24/hocmoithu',
             label: 'GitHub',
